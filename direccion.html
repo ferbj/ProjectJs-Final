@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="utf-8">
   <title>Dirección de envío</title>
@@ -7,21 +7,20 @@
   <link rel="stylesheet" type="text/css" href="css/registro.css"  />
   <script>
    window.onload=function(){
-  var envia;
-  envia=document.getElementById("continuar");
+  let envia=document.getElementById("continuar");
   envia.onclick= function(){
-    var nombre = document.getElementById("nombre").value;
-    var direccion = document.getElementById("direccion").value;
-    var calles = document.getElementById("calles").value;
-    var colonia = document.getElementById("colonia").value;
-    var apellidoPaterno = document.getElementById("apellidoPaterno").value;
-    var ciudad = document.getElementById("ciudad").value;
-    var fecha = document.getElementById("fecha").value;
-    var estado = document.getElementById("estado").value;
-    var mail = document.getElementById("mail").value;
-    var codigoPostal = document.getElementById("codigoPostal").value;
-    var pais = document.getElementById("pais").value;
-    var telefono = document.getElementById("telefono").value;
+    let nombre = document.getElementById("nombre").value;
+    let direccion = document.getElementById("direccion").value;
+    let calles = document.getElementById("calles").value;
+    let colonia = document.getElementById("colonia").value;
+    let apellidoPaterno = document.getElementById("apellidoPaterno").value;
+    let ciudad = document.getElementById("ciudad").value;
+    let fecha = document.getElementById("fecha").value;
+    let estado = document.getElementById("estado").value;
+    let mail = document.getElementById("mail").value;
+    let codigoPostal = document.getElementById("codigoPostal").value;
+    let pais = document.getElementById("pais").value;
+    let telefono = document.getElementById("telefono").value;
     
     if(nombre=="" || direccion=="" || calles=="" || colonia==""|| apellidoPaterno=="" || ciudad=="" || fecha=="" || estado=="" || mail=="" || codigoPostal=="" || pais=="" || telefono=="") {
           alert("Complete los campos marcados por * rojo son obligatorios");
@@ -74,7 +73,7 @@
   </div>
   <div class="Search">
    <div class="texto">Buscar...</div>
-   <div class="Button"><a HREF="#"></a></div>
+   <div class="Button"><a href="#"></a></div>
  </div>
 </div>
 </div>
@@ -225,7 +224,7 @@
 </ul>
 </div>
 <div class="columna">
- <img src="img/logo.png" width="153" height="52" alt="logo"  align="right"/> </div>
+ <img src="img/logo.png" width="153" height="52" alt="logo" /> </div>
 </div>
 <div class="pie02">
 </div>
